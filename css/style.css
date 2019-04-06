@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: skyblue;
+    border: 2px dotted royalblue;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main {
+    clear: both;
+}
+
+.intro {
+    width: 50%;
+    float: left;
+}
+
+.headshot {
+    width: 50%;
+    float: right;
+}
+
+.special {
+    color: coral;
+    text-decoration: underline;
+    font-weight: bold;
+}
