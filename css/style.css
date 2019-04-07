@@ -105,25 +105,24 @@ nav ul li a:hover {
     display: block;
 }
 
-#resume h3 {
+caption {
     padding-bottom: 5px;
     border-bottom: 1px solid #9ba6b1;
 }
 
-dt {
+caption {
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
     margin-bottom: 5px;
     margin-top: 20px;
+    text-align: left;
 }
 
-dd dd {
-    margin-left: 0;
+th {
+    text-align: left;
+    padding: 5px 10px;
 }
 
-dd dt {
-    font-size: inherit;
-    padding-left: 0;
-    border-bottom: none;
-    margin-top: 10px;
+td {
+    padding: 5px 10px;
 }
