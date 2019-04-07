@@ -1,2 +1,3 @@
-# pts-html-css-1-example
-Example site for the HTML/CSS 1 class
+# Philly Tech Sistas
+## Intro to HTML/CSS - Exercise
+This is an example of the exercise that students in the Intro to HTML/CSS class will complete.
