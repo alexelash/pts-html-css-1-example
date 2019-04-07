@@ -53,6 +53,8 @@ nav ul li a:hover {
 
 .main {
     padding: 40px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #about-me .text {
@@ -73,23 +75,21 @@ nav ul li a:hover {
 }
 
 #projects {
+    /*margin-bottom: 40px;*/
     clear: both;
 }
 
 .project {
     background-color: #50a6fc;
-    background-image: url(https://placekitten.com/300/300);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 20%;
-    height: 300px;
-    margin: 2.5%;
+    margin: 0 2.5% 40px;
     float: left;
     position: relative;
+    line-height: 0;
 }
 
-.project:hover {
-    background-image: none;
+.project:hover img {
+    opacity: 0;
 }
 
 .project-title {
@@ -106,23 +106,22 @@ nav ul li a:hover {
 }
 
 caption {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #9ba6b1;
-}
-
-caption {
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
-    margin-bottom: 5px;
     margin-top: 20px;
+    margin-bottom: 5px;
     text-align: left;
 }
 
 th {
     text-align: left;
-    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 td {
-    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
