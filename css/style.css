@@ -21,7 +21,7 @@ img {
     max-width: 100%;
 }
 
-.header {
+header {
     color: #fff;
     background: #4e5a65;
     border-bottom: 2px solid #708090;
@@ -51,7 +51,9 @@ nav ul li a:hover {
     color: #50a6fc;
 }
 
-.main {
+#about-me,
+#projects,
+#skills {
     padding: 40px;
     max-width: 960px;
     margin: 0 auto;
@@ -81,6 +83,7 @@ nav ul li a:hover {
 .project {
     background-color: #50a6fc;
     width: 20%;
+    height: auto;
     margin: 0 2.5% 40px;
     float: left;
     position: relative;
